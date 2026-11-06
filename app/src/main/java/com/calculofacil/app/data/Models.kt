@@ -60,8 +60,6 @@ fun formatNumber(value: Double, settings: CalcSettings, grouped: Boolean = true)
 }
 
 fun formatPlain(value: Double, settings: CalcSettings): String {
-    val abs = kotlin.math.abs(value)
-    if (abs >= 1e14 || (abs < 1e-6 && abs > 0.0)) return formatNumber(value, settings, false)
     val decimals = if (settings.precision == 0) 10 else settings.precision
     val locale = if (settings.numberFormat == NumberFormatKind.PT_BR) Locale("pt", "BR") else Locale.US
     val nf = NumberFormat.getNumberInstance(locale).apply {
@@ -71,7 +69,6 @@ fun formatPlain(value: Double, settings: CalcSettings): String {
     }
     return nf.format(if (settings.precision == 0) cleanFloat(value) else value)
 }
-
 fun cleanFloat(value: Double): Double {
     if (kotlin.math.abs(value) < 1e-15) return 0.0
     return java.math.BigDecimal.valueOf(value).round(java.math.MathContext(14)).toDouble()
