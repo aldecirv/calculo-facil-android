@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.Calc.H1" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:fontFamily">@font/poppins_extrabold</item>
+        <item name="android:letterSpacing">-0.03</item>
+    </style>
+    <style name="TextAppearance.Calc.H2" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+    <style name="TextAppearance.Calc.H3" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+    <style name="TextAppearance.Calc.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">12.5sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+    </style>
+    <style name="TextAppearance.Calc.BodyStrong" parent="TextAppearance.Calc.Body">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+    <style name="TextAppearance.Calc.Caption" parent="TextAppearance.Calc.Body">
+        <item name="android:textSize">10.5sp</item>
+        <item name="android:textColor">@color/text_tertiary</item>
+    </style>
+    <style name="TextAppearance.Calc.Label" parent="TextAppearance.Calc.Caption">
+        <item name="android:textSize">9.5sp</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="TextAppearance.Calc.Mono" parent="TextAppearance.Calc.Caption">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="Widget.Calc.Card" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">@color/card</item>
+        <item name="strokeColor">@color/border</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cardCornerRadius">18dp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+    <style name="Widget.Calc.Button" parent="Widget.Material3.Button">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="backgroundTint">@color/accent</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="android:minHeight">46dp</item>
+        <item name="android:textColor">@color/bg</item>
+    </style>
+    <style name="Widget.Calc.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="strokeColor">@color/border</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="android:minHeight">42dp</item>
+    </style>
+    <style name="Widget.Calc.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">10.5sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/accent</item>
+    </style>
+    <style name="Widget.Calc.Input" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/surface</item>
+        <item name="boxStrokeColor">@color/accent</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">1.5dp</item>
+        <item name="boxCornerRadiusTopStart">13dp</item>
+        <item name="boxCornerRadiusTopEnd">13dp</item>
+        <item name="boxCornerRadiusBottomStart">13dp</item>
+        <item name="boxCornerRadiusBottomEnd">13dp</item>
+        <item name="hintTextColor">@color/text_tertiary</item>
+        <item name="android:textColorHint">@color/text_tertiary</item>
+    </style>
+    <style name="Widget.Calc.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/card</item>
+        <item name="chipStrokeColor">@color/border</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="android:textColor">@color/text_tertiary</item>
+        <item name="android:textSize">10.5sp</item>
+        <item name="chipCornerRadius">14dp</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="chipMinHeight">32dp</item>
+    </style>
+
+    <style name="Widget.Calc.Key" parent="Widget.Material3.Button">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="backgroundTint">@color/card</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="strokeColor">@color/border</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+    <style name="Widget.Calc.Key.Function" parent="Widget.Calc.Key">
+        <item name="backgroundTint">@color/card_alt</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="Widget.Calc.Key.Operator" parent="Widget.Calc.Key">
+        <item name="backgroundTint">@color/card_alt</item>
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+    <style name="Widget.Calc.Key.Equals" parent="Widget.Calc.Key">
+        <item name="backgroundTint">@color/accent</item>
+        <item name="android:textColor">@color/bg</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="Widget.Calc.Key.Danger" parent="Widget.Calc.Key">
+        <item name="backgroundTint">@color/rose</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+</resources>

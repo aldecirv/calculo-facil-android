@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#060B14</color>
+    <color name="bg_elevated">#0B1220</color>
+    <color name="surface">#0F172A</color>
+    <color name="card">#111C2E</color>
+    <color name="card_alt">#17243A</color>
+    <color name="border">#1E2D45</color>
+    <color name="divider">#18243A</color>
+    <color name="accent">#10B981</color>
+    <color name="accent_dark">#059669</color>
+    <color name="blue">#3B82F6</color>
+    <color name="cyan">#22D3EE</color>
+    <color name="purple">#A855F7</color>
+    <color name="amber">#F59E0B</color>
+    <color name="rose">#F43F5E</color>
+    <color name="text_primary">#F1F5F9</color>
+    <color name="text_secondary">#C7D2E5</color>
+    <color name="text_tertiary">#8FA3C0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="overlay">#B3060B14</color>
+</resources>
